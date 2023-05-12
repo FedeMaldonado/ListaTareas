@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Lista de tareas</title>
+    <link rel="shortcut icon" href="icon.png" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="listaTarea">
+        <div class="listaTitulo">
+          <h2>Lista de tareas</h2>
+          <img class="icon" src="icon.png" />
+        </div>
+        <div class="agregarTareas">
+          <input type="text" id="inputBox" placeholder="Agregar tareas" />
+          <button onclick="agregarTarea()" id="btn" class="btnAgregar">
+            +
+          </button>
+        </div>
+
+        <ul id="tareaAgregada"></ul>
+      </div>
+    </div>
+  </body>
+</html>
